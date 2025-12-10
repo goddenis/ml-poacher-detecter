@@ -80,9 +80,6 @@ poacher-detection-system/
 ├── 📄 requirements.txt                 # Python зависимости
 ├── 📄 .gitignore                       # Git исключения
 │
-├── 📄 BUSINESS_REQUIREMENTS.md         # Бизнес-постановка задачи
-├── 📄 DS_APPROACH.md                   # DS-методология
-│
 ├── 📁 data/
 │   ├── raw/                            # Исходные изображения (Roboflow)
 │   ├── processed/
@@ -256,8 +253,8 @@ from roboflow import Roboflow
 
 # Требуется API ключ (бесплатно на roboflow.com)
 rf = Roboflow(api_key="YOUR_API_KEY")
-project = rf.workspace().project("person-weapon-v2")
-dataset = project.versions(1).download("yolov8")
+project = rf.workspace('dbogomolov').project("person-weapon-v2")
+dataset = project.version(2).download("yolov8")
 ```
 
 ---
