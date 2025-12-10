@@ -1,0 +1,5 @@
+.idea
+/data/*
+/models/yolov8n_poacher_detector/*.png
+/models/yolov8n_poacher_detector/*.jpg
+/models/yolov8n_poacher_detector/*.jpeg
