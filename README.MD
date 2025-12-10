@@ -109,7 +109,9 @@ poacher-detection-system/
 ├── 📁 notebooks/
 │   ├── 01_data_preparation.ipynb       # Сбор и подготовка данных
 │   ├── 02_model_training.ipynb         # Обучение YOLOv8
-│   └── 03_evaluation_and_demo.ipynb    # Оценка и демонстрация
+│   ├── 03_evaluation_and_demo.ipynb    # Оценка и демонстрация
+│   └── AIO_Poacher_Detection.ipynb     # Объединений блокнот для запуска 
+│                                       # с использованием GPU на Google Colab 
 │
 └── 📁 results/
     ├── metrics.json                    # Итоговые метрики
