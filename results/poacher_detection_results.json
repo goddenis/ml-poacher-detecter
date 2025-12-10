@@ -1,0 +1,24 @@
+{
+  "evaluation_results": {
+    "total_test_images": 565,
+    "poachers_detected": 154,
+    "person_only": 54,
+    "weapon_only": 329,
+    "detection_rate": "27.3%"
+  },
+  "weapon_statistics": {
+    "grenade": 8,
+    "knife": 45,
+    "pistol": 26,
+    "rifle": 89
+  },
+  "class_detections": {
+    "0": 226,
+    "1": 118,
+    "2": 131,
+    "3": 108,
+    "4": 311
+  },
+  "model": "..\\models\\yolov8n_best.pt",
+  "timestamp": "2025-12-10 15:03:19.120933"
+}
